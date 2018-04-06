@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AcademyEngraved.ttf">
+            <string>AcademyEngravedLetPlain</string>
+        </array>
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+            <string>AmericanTypewriter-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TransitionTaskiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="uSB-tL-wiY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fx-tq-1rZ">
+                                <rect key="frame" x="0.0" y="420" width="375" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emoticons and Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dun-xG-aIE">
+                                        <rect key="frame" x="8" y="8" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="17"/>
+                                        <color key="textColor" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="AHC-pC-ne1">
+                                        <rect key="frame" x="10" y="37" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="R44-R6-X9O">
+                                        <rect key="frame" x="105" y="37" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="fs1-ou-GEv">
+                                        <rect key="frame" x="197" y="37" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="c2I-ID-C6T">
+                                        <rect key="frame" x="290" y="37" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tweets per day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSR-gs-eqG">
+                                        <rect key="frame" x="8" y="120" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="17"/>
+                                        <color key="textColor" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test-graph" translatesAutoresizingMaskIntoConstraints="NO" id="Wz3-VP-f98">
+                                        <rect key="frame" x="8" y="149" width="359" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.75173305457746475" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="528" id="iOX-lm-rgQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dZy-Od-msf" appends="YES" id="ez6-H8-dDF"/>
+                                    <outletCollection property="gestureRecognizers" destination="Mly-1f-gNz" appends="YES" id="1IJ-j1-qJP"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lR0-1o-xSY">
+                                <rect key="frame" x="0.0" y="537" width="375" height="420"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Desc:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPL-bW-tg2">
+                                        <rect key="frame" x="8" y="8" width="112" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="17"/>
+                                        <color key="textColor" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Name : T-Shirt (5 pcs)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ysb-T6-nma">
+                                        <rect key="frame" x="8" y="37" width="249.5" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Price : $99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbH-dy-kLE">
+                                        <rect key="frame" x="8" y="66" width="157" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buy_btn_1" translatesAutoresizingMaskIntoConstraints="NO" id="gZW-RE-A46">
+                                        <rect key="frame" x="302" y="36" width="65" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Info:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjU-WX-acb">
+                                        <rect key="frame" x="8" y="155" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                        <color key="textColor" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="t-shirt-1" translatesAutoresizingMaskIntoConstraints="NO" id="rv6-Qx-yP5">
+                                        <rect key="frame" x="8" y="184" width="359" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05-APR-2018" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPH-1R-jm0">
+                                        <rect key="frame" x="283.5" y="8" width="83.5" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="13"/>
+                                        <color key="textColor" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omb-zC-rGW">
+                                        <rect key="frame" x="302" y="36" width="65" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buy_productWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Tj-it-Ic5"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product delivered 10 days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zI-FI-PVs">
+                                        <rect key="frame" x="8" y="97" width="359" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="grp-IU-iI2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zRa-0r-QZz" appends="YES" id="kGS-tM-ofc"/>
+                                    <outletCollection property="gestureRecognizers" destination="bwr-zI-ZfE" appends="YES" id="5Wh-NQ-45J"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transition Task iOS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FPO-RO-OaY">
+                                <rect key="frame" x="16" y="20" width="202" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="Yqz-gF-h2j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="45"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYI-61-1et">
+                                <rect key="frame" x="234" y="20" width="125" height="111"/>
+                                <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="90K-i8-bcW"/>
+                                </constraints>
+                                <state key="normal" title="Wobble Animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.2666666667" green="0.68235294120000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btn_TransitionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rq2-7h-XF4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FPO-RO-OaY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8Re-Sp-Yiy"/>
+                            <constraint firstItem="1Fx-tq-1rZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kld-ny-WtX"/>
+                            <constraint firstItem="uSB-tL-wiY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LuQ-rN-ZzC"/>
+                            <constraint firstItem="FPO-RO-OaY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="O4l-dy-7MB"/>
+                            <constraint firstAttribute="bottom" secondItem="1Fx-tq-1rZ" secondAttribute="bottom" constant="-281" id="Shu-9x-Gb7"/>
+                            <constraint firstItem="uSB-tL-wiY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TlM-h7-9CV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JYI-61-1et" secondAttribute="trailing" constant="16" id="dJF-Qu-dph"/>
+                            <constraint firstAttribute="bottom" secondItem="lR0-1o-xSY" secondAttribute="bottom" constant="-290" id="e6Q-pr-59O"/>
+                            <constraint firstItem="1Fx-tq-1rZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fBP-Ez-dQ9"/>
+                            <constraint firstItem="lR0-1o-xSY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jn2-3h-alr"/>
+                            <constraint firstItem="JYI-61-1et" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lFG-yK-vV0"/>
+                            <constraint firstItem="uSB-tL-wiY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m2S-xI-q6M"/>
+                            <constraint firstItem="JYI-61-1et" firstAttribute="leading" secondItem="FPO-RO-OaY" secondAttribute="trailing" constant="16" id="sz9-yK-ysX"/>
+                            <constraint firstItem="lR0-1o-xSY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tqz-XJ-TEW"/>
+                            <constraint firstItem="uSB-tL-wiY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xpi-rT-ZKD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bg_img" destination="uSB-tL-wiY" id="JWK-KE-DD1"/>
+                        <outlet property="btn_Chk" destination="JYI-61-1et" id="aTA-41-INT"/>
+                        <outlet property="date_lbl" destination="YPH-1R-jm0" id="vet-5r-ZMg"/>
+                        <outlet property="deliver_date_lbl" destination="2zI-FI-PVs" id="sEe-Yu-gjx"/>
+                        <outlet property="emoji_ico1" destination="AHC-pC-ne1" id="Xjl-yf-ZAJ"/>
+                        <outlet property="emoji_ico2" destination="R44-R6-X9O" id="l2p-a3-i0w"/>
+                        <outlet property="emoji_ico3" destination="fs1-ou-GEv" id="CcW-0L-K3Z"/>
+                        <outlet property="emoji_ico4" destination="c2I-ID-C6T" id="nxM-pN-dXc"/>
+                        <outlet property="emoji_title" destination="dun-xG-aIE" id="hWd-I8-bkB"/>
+                        <outlet property="emoji_view" destination="1Fx-tq-1rZ" id="jKB-lT-Ttp"/>
+                        <outlet property="lbl_title" destination="FPO-RO-OaY" id="1V7-hz-D90"/>
+                        <outlet property="product_buy_img" destination="gZW-RE-A46" id="27f-sS-csQ"/>
+                        <outlet property="product_tshirt_img" destination="rv6-Qx-yP5" id="yxQ-K9-CMN"/>
+                        <outlet property="product_view" destination="lR0-1o-xSY" id="PoQ-wg-IOc"/>
+                        <outlet property="twts_img" destination="Wz3-VP-f98" id="D8v-TH-cSa"/>
+                        <outlet property="twts_title" destination="XSR-gs-eqG" id="fNp-um-VPI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="dZy-Od-msf">
+                    <connections>
+                        <action selector="emojiSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="nUa-RN-tj2"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="4dV-NE-lgq"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="Mly-1f-gNz">
+                    <connections>
+                        <action selector="emojiSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="fhQ-UO-K6f"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="TsY-go-1Wx"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="zRa-0r-QZz">
+                    <connections>
+                        <action selector="productSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="yZw-Hd-poY"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Cnv-HC-vjQ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="bwr-zI-ZfE">
+                    <connections>
+                        <action selector="productSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="32e-we-X7a"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="QnE-bn-dVu"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="280" height="280"/>
+        <image name="2" width="280" height="280"/>
+        <image name="3" width="280" height="280"/>
+        <image name="4" width="280" height="280"/>
+        <image name="bg" width="1440" height="900"/>
+        <image name="buy_btn_1" width="272" height="188"/>
+        <image name="t-shirt-1" width="871" height="1024"/>
+        <image name="test-graph" width="297" height="229"/>
+    </resources>
+</document>
